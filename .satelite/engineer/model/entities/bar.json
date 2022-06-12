@@ -1,0 +1,15 @@
+{
+    "id": "bar",
+    "plural": "bars",
+    "fields": [
+        {
+            "label": "name",
+            "type": "String"
+        }
+    ],
+    "parents": [
+        {
+            "id": "foo"
+        }
+    ]
+}
