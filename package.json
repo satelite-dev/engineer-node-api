@@ -1,0 +1,25 @@
+{
+  "name": "engineer-node-api",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "prisma generate && node scripts/bundleAPI.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cookies": "^0.8.0",
+    "dotenv": "10.0.0",
+    "prisma": "2.27.0",
+    "qs": "6.10.1",
+    "rollup": "2.53.3"
+  },
+  "dependencies": {
+    "@prisma/client": "2.27.0",
+    "follow-redirects": "^1.14.7",
+    "jsonwebtoken": "^8.5.1",
+    "sirv-cli": "1.0.0"
+  }
+}
